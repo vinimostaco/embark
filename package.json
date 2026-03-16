@@ -1,6 +1,6 @@
 {
   "name": "embark",
-  "version": "1.4.0",
+  "version": "0.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -10,7 +10,8 @@
     "postinstall": "husky",
     "test": "bun test --coverage scripts/__tests__",
     "utils": "bun scripts/utils.ts",
-    "setup": "bun scripts/setup.ts"
+    "setup": "bun scripts/setup.ts",
+    "chartly": "bun run --filter @embark/chartly dev"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.3",

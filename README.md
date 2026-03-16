@@ -439,6 +439,7 @@ When changes are pushed to `main` **outside of `packages/`** (scripts, workflows
 <!-- PACKAGES:START -->
 | Package | Description |
 |---------|-------------|
+| `chartly` | this project leads to a graphic view and metrics about stocks usging the net income, revenue and net margin |
 <!-- PACKAGES:END -->
 
 ### Embark Website
